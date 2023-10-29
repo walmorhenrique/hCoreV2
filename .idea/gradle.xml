@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/hCore-bukkit" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/api" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/core" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_10_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_11_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_12_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_13_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_13_R2" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_14_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_15_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_16_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_16_R2" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_16_R3" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_17_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_18_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_18_R2" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_19_1_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_19_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_19_R2" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_19_R3" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_20_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_20_R2" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_8_R3" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_9_R1" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/nms/v1_9_R2" />
+            <option value="$PROJECT_DIR$/hCore-bukkit/plugin" />
+            <option value="$PROJECT_DIR$/hCore-bungee" />
+            <option value="$PROJECT_DIR$/hCore-bungee/api" />
+            <option value="$PROJECT_DIR$/hCore-bungee/core" />
+            <option value="$PROJECT_DIR$/hCore-bungee/plugin" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

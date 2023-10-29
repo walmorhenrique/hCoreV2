@@ -1,0 +1,9 @@
+dependencies {
+    implementation project(':hCore-bungee:api')
+    annotationProcessor project(':hCore-bungee:api')
+}
+
+tasks.compileJava.dependsOn(
+        ':hCore-bungee:api:jar',
+        ':hCore-bungee:api:shadowJar',
+)

@@ -1,0 +1,71 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+group 'com.hakan'
+version '0.7.2.4'
+sourceCompatibility = 8
+compileJava.options.encoding = 'UTF-8'
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven-publish'
+    apply plugin: 'com.github.johnrengelman.shadow'
+
+    group rootProject.group
+    version rootProject.version
+    sourceCompatibility = 8
+    compileJava.options.encoding = 'UTF-8'
+
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://libraries.minecraft.net/' }
+        maven { url 'https://repo.codemc.org/repository/nms/' }
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+    }
+
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                groupId = project.group
+                version = project.version
+                artifactId = project.name
+                from components.java
+            }
+        }
+    }
+
+    /*
+    task sourcesJar(type: Jar, dependsOn: classes) {
+        classifier = 'sources'
+        from sourceSets.main.allSource
+    }
+
+    task javadocJar(type: Jar, dependsOn: javadoc) {
+        classifier = 'javadoc'
+        from javadoc.destinationDir
+    }
+
+    artifacts {
+        archives sourcesJar
+        archives javadocJar
+    }
+    */
+
+    artifacts.archives(tasks.shadowJar)
+
+    tasks.jar {
+        enabled = true
+    }
+
+    tasks.shadowJar {
+        archiveFileName.set(project.name + "-" + project.version + ".jar")
+    }
+}
+
+tasks.jar {
+    enabled = false
+}

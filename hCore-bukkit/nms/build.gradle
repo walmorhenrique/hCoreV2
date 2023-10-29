@@ -1,0 +1,11 @@
+tasks.register('cleanup', Delete) {
+    delete 'build'
+}
+
+tasks.jar.finalizedBy(tasks.cleanup)
+tasks.build.finalizedBy(tasks.cleanup)
+
+tasks.compileJava.dependsOn(
+        ':hCore-bukkit:api:jar',
+        ':hCore-bukkit:api:shadowJar',
+)
