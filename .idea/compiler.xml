@@ -5,7 +5,7 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/hCore-bukkit/api/build/libs/api-0.7.2.4.jar" />
+          <entry name="$PROJECT_DIR$/hCore-bukkit/api/build/libs/api-1.0.0.0.jar" />
         </processorPath>
         <module name="hCore.hCore-bukkit.plugin.main" />
         <module name="hCore.hCore-bukkit.core.main" />
@@ -13,7 +13,7 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/hCore-bungee/api/build/libs/api-0.7.2.4.jar" />
+          <entry name="$PROJECT_DIR$/hCore-bungee/api/build/libs/api-1.0.0.0.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
         </processorPath>
         <module name="hCore.hCore-bungee.plugin.main" />
