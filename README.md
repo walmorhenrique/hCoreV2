@@ -1,29 +1,57 @@
-# hCore
+# hCoreV2
 
-### [Implement hCore to your project now](https://hcore.gitbook.io/wiki/#import)
+### **⚠ Atenção**  
+O hCoreV2 é uma versão modificada do projeto **hCore**, que foi originalmente criado e mantido pelo [@hakan-krgn](https://github.com/hakan-krgn). Essa versão buscou melhorias e correções, incluindo sistemas como **hologramas** e **NPCs**, entre outros. No entanto, devido à complexidade e limitações encontradas, **o hCoreV2 também foi descontinuado**.
 
-## Little bit about hCore
+⚠ **Aviso**: O uso do hCoreV2 é por conta e risco do usuário, pois o código é instável, inconsistente e vulnerável, podendo causar problemas e travamentos conforme o aumento do número de jogadores. 
 
-HCore is a simplified and multi-functional tool for spigot developers. There are dozens of features you can use. HCore
-is also completely open source code. hCore supports all mc versions from 1.8.x to 1.19.x.
+### [Documentação do hCore (original)](https://hcore.gitbook.io/wiki/#import)
 
-## Developers
+---
 
-### Owner:
+## Sobre o hCore
 
-* [@hakan-krgn](https://github.com/hakan-krgn) Discord: Hakan#2584
+O hCore é uma ferramenta multiuso e simplificada para desenvolvedores de Spigot, oferecendo dezenas de funcionalidades e suporte a todas as versões do Minecraft de 1.8.x a 1.19.x. Essa versão, **hCoreV2**, foi criada para dar continuidade ao projeto original, mas devido a dificuldades em manter a estabilidade e desempenho, **decidimos descontinuá-la em favor de uma nova solução, que será lançada em breve**.
 
-### Wiki && GitBook:
+## Recursos
 
+- **Comandos Anotados** - Sistema de comandos com anotações para registrar comandos.
+- **NPCs** - Sistema de NPCs para criação e gestão de NPCs no lado do cliente.
+- **Banco de Dados** - Implementação de multi-suporte a bancos de dados.
+- **Hologramas** - Sistema para criação e gerenciamento de hologramas.
+- **Scoreboards** - Criação de scoreboards personalizados.
+- **Mensagens** - Envio de títulos, action-bars e boss-bars para os jogadores.
+- **Pacotes** - Sistema para escutar e enviar pacotes.
+- **Eventos** - Sistema de assinatura de eventos para registrar ouvintes sem classes adicionais.
+- **Partículas** - Efeitos de partículas para jogadores.
+- **Renderizadores** - Sistema de renderização para enviar pacotes aos jogadores mais próximos.
+- **Agendadores** - Criação simplificada de agendadores.
+- **Menus** - Sistema de menus para inventários personalizados.
+- **Bigornas** - Sistema para receber entrada do jogador via bigornas.
+- **Placas** - Sistema para receber entrada do jogador via placas.
+- **WorldBorders** - Sistema para exibir bordas de mundo.
+- **Construtor de Itens** - Criação de itens customizados facilmente.
+- **Configurações** - Sistema de configurações YAML e JSON.
+- **Anti-Spam** - Sistema para verificação de spam.
+
+## Status do Projeto
+
+**O hCoreV2 foi descontinuado devido à instabilidade e falta de consistência.** Um novo projeto, mais robusto e desenvolvido do zero, será lançado em breve. Acreditamos que essa abordagem proporcionará uma base mais estável e escalável, sem as limitações herdadas.
+
+Se alguém quiser aproveitar o código do hCoreV2, **faça isso por sua conta e risco**, pois o projeto pode apresentar vulnerabilidades que afetam o desempenho e estabilidade do servidor, especialmente em servidores com muitos jogadores.
+
+---
+
+## Contribuidores Originais
+
+### Dono Original:
+* [@hakan-krgn](https://github.com/hakan-krgn) - Discord: Hakan#2584
+
+### Documentação:
 * [@rin-17](https://github.com/rin-17) - Wiki
 * [@hogoshi](https://github.com/zhogoshi) - GitBook
 
-#### [Click to go wiki page](https://github.com/hakan-krgn/hCore/wiki)
-
-#### [Click to go gitbook page](https://hcore.gitbook.io/wiki)
-
-### Contributors:
-
+### Contribuidores:
 * [@furkanbalci0](https://github.com/furkanbalci0)
 * [@osmanfurkan115](https://github.com/osmanfurkan115)
 * [@imBuzz](https://github.com/imBuzz)
@@ -33,31 +61,6 @@ is also completely open source code. hCore supports all mc versions from 1.8.x t
 * [@hamza-cskn](https://github.com/hamza-cskn)
 * [@hogoshi](https://github.com/zhogoshi)
 
-## Features
+---
 
-- [`Annotation Commands`](https://hcore.gitbook.io/wiki/messaging/command-system) - Command system with annotations for
-  registering commands
-- [`NPCs`](https://hcore.gitbook.io/wiki/entities/npc) - NPC system for creating and managing client-side NPCs
-- [`Databases`](https://hcore.gitbook.io/wiki/others/database-management) - Database implementation system with
-  multi-database support
-- [`Holograms`](https://hcore.gitbook.io/wiki/entities/holograms) - Hologram system for creating and managing holograms
-- [`Scoreboards`](https://hcore.gitbook.io/wiki/messaging/scoreboards) - Scoreboard system for creating custom
-  scoreboards
-- [`Messaging`](https://hcore.gitbook.io/wiki/messaging/messagings) - Message system to send title, action-bar or
-  boss-bar to player
-- [`Packets`](https://hcore.gitbook.io/wiki/messaging/packets) - Packet system to listen to the packet and send it to
-  players
-- [`Event Subscriber`](https://hcore.gitbook.io/wiki/others/event-subscriber) - Event subscribe system to register
-  listeners without any class
-- [`Particles`](https://hcore.gitbook.io/wiki/entities/particles) - Particle system to play particle effects for players
-- [`Renderers`](https://hcore.gitbook.io/wiki/entities/renderers) - Renderer system for rendering and sending the
-  package to the closest players
-- [`Schedulers`](https://github.com/hakan-krgn/hCore/wiki/Scheduler) - Scheduler system to easily create new scheduler
-- [`Menus`](https://hcore.gitbook.io/wiki/others/inventories) - Menu system for creating custom inventories for players
-- [`Anvils`](https://github.com/hakan-krgn/hCore/wiki/Anvil) - Anvil system for receiving input from the player
-- [`Signs`](https://github.com/hakan-krgn/hCore/wiki/Sign) - Sign system for receiving input from the player
-- [`WorldBorders`](https://hcore.gitbook.io/wiki/others/world-borders) - WorldBorder system to display WorldBorder
-- [`ItemBuilder`](https://hcore.gitbook.io/wiki/others/itembuilder) - Using and creating custom items easily
-- [`Configurations`](https://hcore.gitbook.io/wiki/configs/configs) - YAML and JSON config system for creating and
-  manage configs easily
-- [`Spam`](https://hcore.gitbook.io/wiki/messaging/spam-system) - Spam system to check if the provided ID is spamming
+Aguardem novidades sobre o próximo projeto, que trará uma experiência otimizada e inovadora para a comunidade de desenvolvedores de Spigot.
